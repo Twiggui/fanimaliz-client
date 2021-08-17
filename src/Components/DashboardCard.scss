@@ -1,0 +1,5 @@
+@use "variables";
+
+.dashboard-card {
+  background-color: variables.$font-color-primary;
+}
