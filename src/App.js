@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import DashboardCard from './Components/DashboardCard';
+import Dashboard from './Pages/Dashboard';
 
 function App() {
   return (
     <div>
-      <DashboardCard />
+      <Dashboard />
     </div>
   );
 }

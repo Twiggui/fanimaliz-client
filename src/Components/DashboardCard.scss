@@ -1,5 +1,23 @@
 @use "variables";
 
 .dashboard-card {
-  background-color: variables.$font-color-primary;
+  p,
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  margin: 10px;
+  width: 20vw;
+  border-radius: 20px;
+  .dashboard-card-title {
+    color: variables.$font-color-primary;
+  }
+  .key-figures {
+    color: variables.$color-ins-80;
+    font-size: 30px;
+    font-weight: bold;
+  }
 }
