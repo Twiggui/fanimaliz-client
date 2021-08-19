@@ -1,0 +1,45 @@
+@use "../variables";
+.sidebar {
+  height: 95vh;
+  width: 20vw;
+  padding: 10px 20px;
+  .user-infos {
+    margin-bottom: 20%;
+    display: flex;
+    align-items: center;
+    .user-avatar {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+      background-color: lightgreen;
+    }
+    .user-name {
+      .user-firstname,
+      .user-lastname {
+        font-size: 26px;
+        font-weight: 700;
+        color: #4e51ee;
+        margin: 0;
+      }
+    }
+  }
+  .categories {
+    a {
+      text-decoration: none;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .category {
+      margin: 10px;
+      color: variables.$color-ins-80;
+    }
+    .active-category {
+      .child {
+        margin: 10px;
+        color: white;
+        background-color: variables.$color-ins-80;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.animals-page {
+  background-color: #f4f7fe;
+  padding: 20px;
+  width: 80vw;
+
+  .animals-list {
+    background-color: white;
+    border-radius: 10px;
+    // margin: 10px;
+    padding: 20px;
+    .presentation {
+      margin: 0;
+    }
+    .presentation-number {
+      margin: 0;
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      thead {
+        padding: 10px;
+        tr {
+          padding: 10px;
+
+          th {
+            padding: 10px;
+            border-bottom: lightgray 2px dashed;
+
+            font-weight: normal;
+          }
+        }
+      }
+      tbody {
+        padding: 10px;
+
+        tr {
+          padding: 10px;
+          .animal-table-status-green {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: green;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .animal-table-status-orange {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: orange;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          th {
+            padding: 5px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
